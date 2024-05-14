@@ -33,8 +33,8 @@ social:
   email: contact@perpetuum-mobile.space # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://chaos.social/@perpetuum_mobile/ # change to your twitter homepage
+    - https://www.instagram.com/perpetuum_mobile.space/ # change to your github homepage
 
 
 # Site Verification Settings
