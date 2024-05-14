@@ -2,7 +2,7 @@ name: Deploy to ghcr
 
 on:
   push:
-    branches: [ "main", "gh_workflows" ]
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
