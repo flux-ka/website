@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Willkommen bei Perpetuum Mobile
-![Perpetuum Mobile Logo](/images/PerpetuumMobileLogoCropped.png)
+![Perpetuum Mobile Logo](/images/PerpetuumMobileLogo.png)
 
 ## Wir sind:
 
@@ -29,17 +29,12 @@ Vielleicht habt ihr ja auch noch Ideen, schreibt uns gerne hier:
 Neurodiverse Menschen (ASD, ADHS, Legasthenie, Dyspraxie, Dyskalkulie, Hochsensible, usw.), Allies, undiagnostizierte Neugierige und...
 Es ist ein Spektrum! Auch Leute, die nicht über die Diagnose-Grenze hinaus kommen, können hier viel über sich und andere lernen.
 
-**Wichtig:** Wir dulden keine Diskriminierung, egal welcher Art. Keine TERF´s, keinen Rassismus, keine Queerfeindlichkeit, keinen Ableismus. Wir geben unser BEstes, ein Safer Space zu ein. Wenn euch etwas Schlechtes innerhalb unserer Community passiert, dann schreibt uns gerne eine Mail oder eine DM auf unseren Social Media Kanälen. Konsequenzen bei Verstößen gegen unsere Awareness-Regeln können Gespräche, temporäre Verweise oder der Rausschmiss aus unserer Gruppe sein, je nach Situation.
+**Wichtig:** Wir dulden keine Diskriminierung, egal welcher Art. Keine TERF´s, keinen Rassismus, keine Queerfeindlichkeit, keinen Ableismus. Wir geben unser Bestes, ein Safer Space zu ein. Wenn euch etwas Schlechtes innerhalb unserer Community passiert, dann schreibt uns gerne eine Mail oder eine DM auf unseren Social Media Kanälen. Konsequenzen bei Verstößen gegen unsere Awareness-Regeln können Gespräche, temporäre Verweise oder der Rausschmiss aus unserer Gruppe sein, je nach Situation.
 Hoffen wir, dass all das nicht nötig sein wird. :)
 
 Tausche dich mit uns auf unserem Discord-Server aus:
 <br>
-<iframe src="https://discord.com/widget?id=892837677072797766&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-Und komme in unsere Telegram-Gruppe, wenn du beim nächsten Treffen dabei sein willst:
-<br>
 <https://t.me/+KlR0feIXbZAzZDdi>
-<!--Für News und aktuelle Infos folge uns auf Instagram unter
-<a href="https://www.instagram.com/mission_trans/">@mission_trans</a>.-->
 
 Wenn du mehr Fragen hast, kannst du dich gerne unter
 <a href="mailto:contact@perpetuum-mobile.space">contact@perpetuum-mobile.space</a>
