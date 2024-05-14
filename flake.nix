@@ -22,6 +22,8 @@
           name = "jekyll dev shell";
           nativeBuildInputs = with pkgs ;[
             jekyll
+            bundler
+            docker
           ];
         };
       });
