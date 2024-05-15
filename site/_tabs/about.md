@@ -35,9 +35,8 @@ Hoffen wir, dass all das nicht nötig sein wird. :)
 
 Tausche dich mit uns auf unserem Discord-Server aus:
 <br>
-Und komme in unsere Telegram-Gruppe, wenn du beim nächsten Treffen dabei sein willst:
+Und komme in unsere [Telegram-Gruppe](https://t.me/+KlR0feIXbZAzZDdi), wenn du beim nächsten Treffen dabei sein willst:
 <br>
-<https://t.me/+KlR0feIXbZAzZDdi>
 
 
 Wenn du mehr Fragen hast, kannst du dich gerne unter
