@@ -24,6 +24,7 @@
             jekyll
             bundler
             docker
+            docker-compose
           ];
         };
       });
