@@ -33,10 +33,8 @@ Es ist ein Spektrum! Auch Leute, die nicht über die Diagnose-Grenze hinaus komm
 **Wichtig:** Wir dulden keine Diskriminierung, egal welcher Art. Keine TERF´s, keinen Rassismus, keine Queerfeindlichkeit, keinen Ableismus. Wir geben unser BEstes, ein Safer Space zu ein. Wenn euch etwas Schlechtes innerhalb unserer Community passiert, dann schreibt uns gerne eine Mail oder eine DM auf unseren Social Media Kanälen. Konsequenzen bei Verstößen gegen unsere Awareness-Regeln können Gespräche, temporäre Verweise oder der Rausschmiss aus unserer Gruppe sein, je nach Situation.
 Hoffen wir, dass all das nicht nötig sein wird. :)
 
-Tausche dich mit uns auf unserem Discord-Server aus:
 <br>
-Und komme in unsere [Telegram-Gruppe](https://t.me/+KlR0feIXbZAzZDdi), wenn du beim nächsten Treffen dabei sein willst:
-<br>
+Interesse dabei zu sein? Schau doch gerne unter <a href='/mitmachen'>mitmachen</a> vorbei!
 
 
 Wenn du mehr Fragen hast, kannst du dich gerne unter
