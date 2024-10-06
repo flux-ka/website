@@ -8,8 +8,8 @@
 
 - type: mastodon
   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-  url:  'https://chaos.social/@perpetuum_mobile/'
+  url:  'https://chaos.social/@flux_ka/'
 
 - type: instagram
   icon: 'fab fa-instagram'
-  url: 'https://www.instagram.com/perpetuum_mobile.space/'
+  url: 'https://www.instagram.com/flux_ka'
