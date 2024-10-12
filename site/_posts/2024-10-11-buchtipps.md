@@ -5,7 +5,7 @@ category: events
 tags: [tippsandtricks]
 ---
 
-Heute hat um 16:00 unser Bücher-Austausch statt gefunden. Und wie angekündigt gibt es hier eure tollen Buchvorschläge.
+Heute hat um 16:00 unser Bücher-Austausch stattgefunden. Und wie angekündigt gibt es hier eure tollen Buchvorschläge.
 
 Euch fällt noch weitere tolle Literatur ein, die noch nicht auf dieser Liste steht? Schreibt uns doch gerne eine [E-Mail](mailto:contact@perpetuum-mobile.space) oder meldet euch über einen unserer [Kommunikationskanäle](/mitmachen/#kommunikation). Viel Spaß!
 
