@@ -40,13 +40,13 @@ Den Antrag stellst du dann mit Attest, Antragsschreiben selbst und ggf. Diagnose
 
 Nach ein paar Wochen kommt dann Per Post der Bescheid über die Entscheidung des Prüfungsausschusses. Das ist entweder eine Ablehnung oder direkt der [Nachteilsausgleich](/assets/nachteilsausgleich/Genehmigung_NTA_Beispiel.pdf).
 
-Häufig sind Nachteilsausgleiche befristet. Man muss die dann immer wieder neu beantragen. Warum genau das so ist und wann NTAs befristet werden und wann nicht ist unklar. Es hängt jedenfalls nicht mit der jeweiligen Art der Benachteiligung zusammen.
+Häufig sind Nachteilsausgleiche befristet. Man muss die dann immer wieder neu beantragen. Warum genau das so ist und wann NTAs befristet werden und wann nicht ist unklar. Es hängt jedenfalls nicht unbedingt mit der jeweiligen Art der Benachteiligung zusammen[^nta-time].
 
 ### Weiterbeantragung
 Wenn der NTA befristet ist muss er nach dem Ablauf der Frist (oder im Idealfall davor :D) weiterbeantragt werden.
 > Eine Verlängerung des Nachteilsausgleiches ist mit Vorlage eines aktuellen Attestes möglich.
 
-steht auf dem NTA selbst. Man muss also zu der Ärzt:in, die ursprünglich das Attest ausgestellt hat hin gehen und sich ein neues Attest holen in dem bis auf das Datum das selbe wie im ersten Attest steht. Das ist n bisschen blöd und kostet jedes mal die Gebühr, die Ärzt:innen für Atteste verlangen. Dann reicht aber eine formlose E-Mail an den Prüfungsausschuss mit dem etwaigen Inhalt:
+steht auf dem NTA selbst. Man muss sich also ein neues Attest ausstellen lassen. Am einfachsten ist es natürlich, zu der Ärzt:in, die ursprünglich das Attest ausgestellt hat hin gehen und sich das Attest einfach mit neuem Datum erneut ausstellen zu lassen. Das ist n bisschen blöd und kostet jedes mal die Gebühr, die Ärzt:innen für Atteste verlangen. Dann reicht aber eine formlose E-Mail an den Prüfungsausschuss mit dem etwaigen Inhalt:
 ```
 Sehr geehrte Damen und Herren,
 hiermit möchte ich eine Verlängerung meines Nachteilsausgleiches beantragen.
@@ -74,13 +74,16 @@ Häufig ist es leider notwendig da nachzuhaken. Wenn man ein paar Tage vor der K
 - Den Antrag stellt man an den Prüfungsausschuss der jeweiligen Fakultät. Die melden sich dann postalisch zurück.
 - Am Semesteranfang schickt man den NTA an die jeweiligen Prüfungsverantwortlichen für die Prüfungen, die man schreiben will. Die organisieren dann die entsprechenden Ausgleichsmaßnahmen. 
 
+## Wenn der Antrag unberechtigter Weise abgelehnt wird
+In solchen Fällen kann man sich sehr gut an seine jeweilige Fachschaft, den Studiengangservice oder den [AStA](https://www.asta-kit.de) wenden. Beim AStA gibt es zum Beispiel das [Chancengleichheisrefarat](https://www.asta-kit.de/de/asta/referate/chancengleichheit), die sehr sauer werden wenn Studierende diskriminiert werden. Die Fachschaften haben teils sehr direkte Kontakte zu den jeweiligen Prüfungsausschüssen und können dann direkt nachhaken.
+
 ## Ressourcen
 - [Merkblatt des KIT zum Nachteilsausgleich](https://www.studiumundbehinderung.kit.edu/downloads/merkblattnta_201997.pdf)
 - [Seite des KIT zum Nachteilsausgleich](https://www.studiumundbehinderung.kit.edu/465.php)
-- [Angelika Scherwitz-Gallegos](mailto:angelika.scherwitz@kit.edu), die Beauftragte für Studierende mit Behinderung und chronischer Krankheit KIT
 
 ---
 
 
 
 [^latex-file]: Ja, das LaTeX Dokument dazu gibt es [hier](/assets/nachteilsausgleich/Beispielantrag.tex) :)
+[^nta-time]: Offensichtlich gibt es auch Einschränkungen wo eine Befristung sehr sinnvoll ist. Man kann zum Beispiel auch für einen gebrochenen Arm einen NTA bekommen. Autismus z.B. hingegen ist dann schon eher dauerhaft…
