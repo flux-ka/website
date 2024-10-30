@@ -11,7 +11,7 @@ order: 1
 Ein Safer Space für alle Menschen, die sich selbst auf dem neurodiversen Spektrum sehen oder etwas darüber erfahren möchten.
 Austausch, Treffen, Entwicklung - Bringt ein und holt heraus, was ihr möchtet!
 
-Unsere Gruppe "Perpetuum Mobile" ist für alle Menschen da, die Interesse an neurodiversen Themen haben, Teil einer bunten Community sein möchten oder einen Safer Space zum Austausch suchen - Mit oder ohne Diagnose.
+Unsere Gruppe "Flux" ist für alle Menschen da, die Interesse an neurodiversen Themen haben, Teil einer bunten Community sein möchten oder einen Safer Space zum Austausch suchen - Mit oder ohne Diagnose.
 
 ## Was verstehen wir unter dem Begriff "Neurodiversität"?
 
