@@ -14,5 +14,5 @@ COPY site/ /site/
 RUN --mount=type=cache,target=/site/.jekyll-cache \
     JEKYLL_ENV=production bundle exec jekyll build
 
-FROM nginx:alpine
+FROM nginxinc/nginx-unprivileged:alpine
 COPY --from=builder /site/_site /usr/share/nginx/html
