@@ -12,7 +12,7 @@ RUN --mount=type=cache,target=/root/.gem \
 COPY site/ /site/
 
 RUN --mount=type=cache,target=/site/.jekyll-cache \
-    bundle exec jekyll build
+    JEKYLL_ENV=production bundle exec jekyll build
 
 FROM nginx:alpine
 COPY --from=builder /site/_site /usr/share/nginx/html
