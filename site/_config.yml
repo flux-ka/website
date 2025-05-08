@@ -22,19 +22,17 @@ description: >- # used by seo meta and the atom feed
   Eine Hochschulgruppe für neurodivergente Menschen am KIT Karlsruhe
 
 # Fill in the protocol & hostname for your site.
-url: "https://perpetuum-mobile.space"
-
+url: "https://flux-ka.de"
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Flux
-  email: contact@perpetuum-mobile.space # change to your email address
+  email: contact@flux-ka.de # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://chaos.social/@perpetuum_mobile/ # change to your twitter homepage
-    - https://www.instagram.com/perpetuum_mobile.space/ # change to your github homepage
-
+    - https://chaos.social/@perpetuum_mobile/
+    - https://www.instagram.com/perpetuum_mobile.space/
 
 # Site Verification Settings
 webmaster_verifications:

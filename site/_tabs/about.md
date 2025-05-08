@@ -23,7 +23,7 @@ Vor allem soll es regelmäßige Treffen und viel Austausch in der Community gebe
 Für die Zukunft wünschen wir uns
 Aufklärung zu Neurodivergenz, insbesondere bei Erwachsenen, Frauen* und PoC. Deshalb wollen wir nicht nur einen Safe Space schaffen, sondern auch ein bisschen Aktivismus machen, zum Beispiel durch Infoveranstaltungen, Petitionen und vielleicht sogar eine Art Pride. 
 Vielleicht habt ihr ja auch noch Ideen, schreibt uns gerne hier:
-[contact@perpetuum-mobile.space](mailto:contact@perpetuum-mobile.space)
+[contact@flux-ka.de](mailto:contact@flux-ka.de)
 
 ## Wer ist willkommen?
 
@@ -38,5 +38,5 @@ Interesse dabei zu sein? Schau doch gerne unter <a href='/mitmachen'>mitmachen</
 
 
 Wenn du mehr Fragen hast, kannst du dich gerne unter
-<a href="mailto:contact@perpetuum-mobile.space">contact@perpetuum-mobile.space</a>
+<a href="mailto:contact@flux-ka.de">contact@flux-ka.de</a>
 melden.

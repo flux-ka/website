@@ -27,7 +27,7 @@ title: Nützliche Links
 - [ASTA Chancengleichheitsreferat](https://www.asta-kit.de/de/asta/referate/chancengleichheit)
 - [Studium und Behinderung](https://www.studiumundbehinderung.kit.edu/)
 - [Reallabor Barrierefreiheit](https://www.accessibility.kit.edu/)
--  [Antidiskriminierungsstelle](https://www.antidiskriminierung-ka.de/beratung)
+- [Antidiskriminierungsstelle](https://www.antidiskriminierung-ka.de/beratung)
 
 ## Unterstützung bei Engagement
 - [Besser@KIT](https://www.sts.kit.edu/7543.php)
