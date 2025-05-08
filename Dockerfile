@@ -1,20 +1,18 @@
-FROM alpine:latest
+FROM alpine:latest AS builder
+
+RUN --mount=type=cache,id=apk-cache,sharing=locked,target=/var/cache/apk \
+    apk --update add ruby bash git build-base ruby-dev libffi-dev
+
+WORKDIR /site
+COPY site/Gemfile* /site/
+
+RUN --mount=type=cache,target=/root/.gem \
+    gem install bundler && bundle install
 
 COPY site/ /site/
 
-WORKDIR /site
+RUN --mount=type=cache,target=/site/.jekyll-cache \
+    JEKYLL_ENV=production bundle exec jekyll build
 
-RUN rm -rf .jekyll-cache 
-
-RUN apk update && apk upgrade
-RUN apk add --update ruby bash \
-    && apk add git \
-    && apk add --virtual build-dependencies build-base ruby-dev libffi-dev \
-    && gem install bundler \
-    && bundle install \
-    && bundle exec jekyll clean \
-    && bundle exec jekyll build \
-    && gem cleanup \
-    && apk del build-dependencies 
-
-EXPOSE 4000
+FROM nginxinc/nginx-unprivileged:alpine
+COPY --from=builder /site/_site /usr/share/nginx/html
