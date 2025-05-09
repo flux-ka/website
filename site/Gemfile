@@ -2,12 +2,15 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 7.0"
+gem "jekyll-theme-chirpy", "~> 7.2"
 
 group :test do
   gem "html-proofer", "~> 5.0"
 end
 
-gem "webrick", "~> 1.8"
+# Workaround for https://github.com/sass-contrib/sass-embedded-host-ruby/issues/282
+gem 'google-protobuf', force_ruby_platform: RUBY_PLATFORM.include?('linux-musl')
 
-gem "jekyll", "~> 4.3"
+gem "webrick", "~> 1.9"
+
+gem "jekyll", "~> 4.4"

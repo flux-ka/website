@@ -7,7 +7,7 @@ WORKDIR /site
 COPY site/Gemfile* /site/
 
 RUN --mount=type=cache,target=/root/.gem \
-    gem install bundler && bundle install
+    gem install bundler && bundle install --frozen
 
 COPY site/ /site/
 
