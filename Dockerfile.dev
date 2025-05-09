@@ -10,4 +10,4 @@ RUN --mount=type=cache,target=/root/.gem \
   gem install bundler && bundle install
 
 ENTRYPOINT [ "bundle", "exec", "jekyll" ]
-CMD ["serve", "--incremental", "--host=0.0.0.0"]
+CMD ["serve", "--incremental", "--host=0.0.0.0", "--watch", "--drafts", "--force_polling", "--livereload"]
