@@ -16,62 +16,67 @@ refactor: true
 {% assign pinned_num = pinned.size | minus: offset %}
 
 {% if pinned_num > 0 %}
-  {% for i in (offset..pinned.size) limit: pinned_num %}
-    {% assign posts = posts | push: pinned[i] %}
-  {% endfor %}
+{% for i in (offset..pinned.size) limit: pinned_num %}
+{% assign posts = posts | push: pinned[i] %}
+{% endfor %}
 {% else %}
-  {% assign pinned_num = 0 %}
+{% assign pinned_num = 0 %}
 {% endif %}
 
 <!-- Get default posts -->
 
 {% assign default_beg = offset | minus: pinned.size %}
 
-{% if default_beg < 0 %}
-  {% assign default_beg = 0 %}
-{% endif %}
-
-{% assign default_num = paginator.posts | size | minus: pinned_num %}
-{% assign default_end = default_beg | plus: default_num | minus: 1 %}
-
-{% if default_num > 0 %}
+{% if default_beg < 0 %} {% assign default_beg=0 %} {% endif %} {% assign default_num=paginator.posts | size | minus:
+  pinned_num %} {% assign default_end=default_beg | plus: default_num | minus: 1 %} {% if default_num> 0 %}
   {% for i in (default_beg..default_end) %}
-    {% assign posts = posts | push: default[i] %}
+  {% assign posts = posts | push: default[i] %}
   {% endfor %}
-{% endif %}
+  {% endif %}
 
-<h1>Willkommen!</h1>
-<p>
-  Wir freuen uns sehr, dass du dich für unsere Hochschulgruppe interessierst. Informationen darüber wer wir sind und was wir so machen
-  findest du <a href="/about">hier</a>.<br>
-  Du möchtest mitmachen? Super! Wir freuen uns immer über neue Menschen! Schau dir doch mal <a href="mitmachen">diese</a> Seite an.
-</p>
-
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for post in posts %}
+  <h2>Willkommen!</h2>
+  <p>
+    Wir freuen uns sehr, dass du dich für unsere Hochschulgruppe interessierst. Informationen darüber wer wir sind und
+    was wir so machen
+    findest du <a href="/about">hier</a>.<br>
+    Du möchtest mitmachen? Super! Wir freuen uns immer über neue Menschen! Schau dir doch mal <a
+      href="mitmachen">diese</a> Seite an.
+  </p>
+  <h3>Unterstützung</h3>
+  Am besten kannst du uns unterstützen indem du einfach mal bei uns <a href="mitmachen">vorbei schaust</a> :)
+  <br>
+  Wir haben außerdem durch laufende Kosten (Server, Domain) immer Geldprobleme, die wir aktuell privat stämmen. Dadurch
+  können wir leider keine coolen Projekte umsetzen, die auf Geld angewiesen sind. Wir
+  freuen uns also sehr über eine Spende. Die Verbindung unseres Spendenkontos lautet:<br>
+  <br>
+  <strong>Kontoinhaberin: Clara Dautermann</strong><br>
+  <strong>IBAN: DE85 1203 0000 1205 3000 39</strong><br>
+  <strong>BIC: BYLADEM1001</strong>
+  <div id="post-list" class="flex-grow-1 px-xl-1">
+    {% for post in posts %}
     <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
         {% assign card_body_col = '12' %}
 
         {% if post.image %}
-          {% assign src = post.image.path | default: post.image %}
-          {% unless src contains '//' %}
-            {% assign src = post.media_subpath | append: '/' | append: src | replace: '//', '/' %}
-          {% endunless %}
+        {% assign src = post.image.path | default: post.image %}
+        {% unless src contains '//' %}
+        {% assign src = post.media_subpath | append: '/' | append: src | replace: '//', '/' %}
+        {% endunless %}
 
-          {% assign alt = post.image.alt | xml_escape | default: 'Preview Image' %}
+        {% assign alt = post.image.alt | xml_escape | default: 'Preview Image' %}
 
-          {% assign lqip = null %}
+        {% assign lqip = null %}
 
-          {% if post.image.lqip %}
-            {% capture lqip %}lqip="{{ post.image.lqip }}"{% endcapture %}
-          {% endif %}
+        {% if post.image.lqip %}
+        {% capture lqip %}lqip="{{ post.image.lqip }}"{% endcapture %}
+        {% endif %}
 
-          <div class="col-md-5">
-            <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
-          </div>
+        <div class="col-md-5">
+          <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
+        </div>
 
-          {% assign card_body_col = '7' %}
+        {% assign card_body_col = '7' %}
         {% endif %}
 
         <div class="col-md-{{ card_body_col }}">
@@ -90,21 +95,21 @@ refactor: true
 
                 <!-- categories -->
                 {% if post.categories.size > 0 %}
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    {% for category in post.categories %}
-                      {{ category }}
-                      {%- unless forloop.last -%},{%- endunless -%}
-                    {% endfor %}
-                  </span>
+                <i class="far fa-folder-open fa-fw me-1"></i>
+                <span class="categories">
+                  {% for category in post.categories %}
+                  {{ category }}
+                  {%- unless forloop.last -%},{%- endunless -%}
+                  {% endfor %}
+                </span>
                 {% endif %}
               </div>
 
               {% if post.pin %}
-                <div class="pin ms-1">
-                  <i class="fas fa-thumbtack fa-fw"></i>
-                  <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
-                </div>
+              <div class="pin ms-1">
+                <i class="fas fa-thumbtack fa-fw"></i>
+                <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
+              </div>
               {% endif %}
             </div>
             <!-- .post-meta -->
@@ -113,10 +118,10 @@ refactor: true
         </div>
       </a>
     </article>
-  {% endfor %}
-</div>
-<!-- #post-list -->
+    {% endfor %}
+  </div>
+  <!-- #post-list -->
 
-{% if paginator.total_pages > 1 %}
+  {% if paginator.total_pages > 1 %}
   {% include post-paginator.html %}
-{% endif %}
+  {% endif %}
