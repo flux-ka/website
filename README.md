@@ -5,8 +5,10 @@ Are you looking to join us? [This](https://matrix.to/#/#perpetuum-mobile:matrix.
 
 ## Development
 
-To develop this site you require jekyll. On NixOS you can use the provided flake (`nix develop`).
+To develop this site you require docker. On NixOS you can use the provided flake (`nix develop`).
 On other systems you need to install this manually.
+
+Run `docker compose up` to launch the development server.
 
 ## Contributions
 
