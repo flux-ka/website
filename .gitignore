@@ -6,8 +6,5 @@
 .envrc
 
 # End of https://www.toptal.com/developers/gitignore/api/direnv
- 
-# do not track docker dev env
-docker-compose.yml
 
 _site/
