@@ -15,4 +15,5 @@ RUN --mount=type=cache,target=/site/.jekyll-cache \
     JEKYLL_ENV=production bundle exec jekyll build
 
 FROM nginxinc/nginx-unprivileged:alpine
+COPY site/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /site/_site /usr/share/nginx/html
