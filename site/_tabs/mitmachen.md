@@ -10,7 +10,6 @@ Am besten beginnst du damit einem unserer Kommunikationskanäle beizutreten:
 
 - [Matrix space](https://matrix.to/#/#perpetuum-mobile:matrix.perpetuum-mobile.space)
 - [Signal](https://signal.group/#CjQKIPUsSHnO1tv7Sh7A0i-slX-nH-QeElZG3E9V-TfIbdubEhDxcjxK1ZROuz5KU7wD08kP)
-- Du möchtest nur die wichtigsten Informationen mitbekommen? Wir haben auch eine [Ankündigungsgruppe](https://t.me/+LJw2vkyeBpk0Y2Ji).
 
 ## Kommunikation
 Unsere online Kommunikation läuft primär auf Matrix ab, da dieser Messenger einer der aktuell sichersten ist und es uns erlaubt 
