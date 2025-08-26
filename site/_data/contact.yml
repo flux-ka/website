@@ -7,9 +7,9 @@
 # Uncomment and complete the url below to enable more contact options
 
 - type: mastodon
-  icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-  url:  'https://chaos.social/@flux_ka/'
+  icon: "fab fa-mastodon" # icons powered by <https://fontawesome.com/>
+  url: "https://chaos.social/@Flux_ka"
 
 - type: instagram
-  icon: 'fab fa-instagram'
-  url: 'https://www.instagram.com/flux_ka'
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/flux_ka"
